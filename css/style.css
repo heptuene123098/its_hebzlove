@@ -1,0 +1,35 @@
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.repo-item {
+    background-color: #662d91;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(33% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.repo-item:hover {
+    transform: translateY(-5px);
+}
+
+.repo-item h3 {
+    margin: 0;
+}
+
+.repo-item p {
+    margin: 10px 0;
+}
+
+.repo-item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+}
