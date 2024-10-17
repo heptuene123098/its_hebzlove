@@ -1,6 +1,6 @@
 /*=======================typing animation=========================*/
 var typed = new Typed(".typing", {
-    strings:["", "Project Management", "Construction Project Management" "Building Information Modelling", "Business Intelligence", "Data Analytics", "Web designing", "Leadership"],
+    strings:["", "Project Management", "Construction Project Management", "Building Information Modelling", "Business Intelligence", "Data Analytics", "Web designing", "Leadership"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
